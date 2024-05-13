@@ -1,22 +1,28 @@
 # How to run this app
 
-1. In the .env file add details for your Algolia application ID, and Admin API Key
-
-2. Next, in the project root directory (client), run the following commands:
+In the project root directory (client), run the following commands:
 
     //Install the dependencies
-    `npm i`
+    npm i
 
     //Run the app in the broswer
-    `npm start`
+    npm start
 
 ## Running the records and settings script 
 
-When you first start this application, this script will run automatically. 
+If you want to create this index in your own Algolia application, you need to do the following:
 
-If for some reason it does not run, or you want to update it and re-run, then type in the following in the terminal in the client directory:
+1. Create a .env file in the project root directory. 
+2. Add the following with details of your Algolia application ID and Admin API Key
 
-```node src/recordsAndSettings.cjs```
+```
+    REACT_APP_APPLICATION_ID=
+    REACT_APP_ALGOLIA_ADMIN_API_KEY= 
+```
+
+3. In the terminal run the following command:
+
+    ```node src/recordsAndSettings.cjs```
 
 
 
