@@ -1,38 +1,126 @@
-.App {
+.main-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  width: 960px;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+.refine-search-text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #697782;
+  margin-left: 8px;
+}
+
+.title {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-right: 24px;
+  padding: 8px;
+  height: auto;
+  background: #013dff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.title-text {
+  font-size: 26px;
+  color: #fff;
+  font-weight: bold;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.filter-title {
+  font-weight:700;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.filters {
+  margin-bottom: 24px;
+  margin-right: 24px;
+  padding: 8px;
+  height: auto;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.price-range {
+  margin-right: 24px;
+  padding: 8px;
+  height: auto;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  margin-top: 24px;
+}
+
+#stats {
+  flex-grow: 0;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  color: #697782;
+}
+
+#hits {
+  flex-grow: 1;
+  order: 1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ais-Hits-item {
+  margin-bottom: 24px;
+}
+
+.hit {
+  display: flex;
+  padding: 16px;
+}
+
+.hit-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.hit-image {
+  display: flex;
+  margin-right: 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hit-image img {
+  width: auto;
+  max-height: 176px;
 }
+
+.hit-name {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
+.hit-price {
+  font-size: 16px;
+}
+
+.hit-description {
+  color: rgb(153, 153, 153);
+  display: block;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
+.pagination {
+  margin: 2rem auto;
+}
+
+
+
