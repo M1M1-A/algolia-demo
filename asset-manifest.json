@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/algolia-demo/static/css/main.384d9c10.css",
+    "main.js": "/algolia-demo/static/js/main.16884995.js",
+    "index.html": "/algolia-demo/index.html",
+    "main.384d9c10.css.map": "/algolia-demo/static/css/main.384d9c10.css.map",
+    "main.16884995.js.map": "/algolia-demo/static/js/main.16884995.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.384d9c10.css",
+    "static/js/main.16884995.js"
+  ]
+}
